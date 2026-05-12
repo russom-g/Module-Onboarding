@@ -1,65 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>My form exercise</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
-  <body>
-    <header>
-      <h1>Product Pick</h1>
-    </header>
-    <main>
-      <form>
-        <div>
-           <label>Name</label>
-           <input type="text" name="name" id="name" required>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>My form exercise</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+  <header>
+    <h1>Product Pick</h1>
+  </header>
+  <main>
+    <form>
+      <div>
+        <label>Name</label> <!--  label asking for the customer's name -->
+        <input type="text" name="name" id="name" required>
         </dive>
         <div>
-          <label>Email</label>
+          <label>Email</label> <!-- label asking for the customer's email -->
           <input type="email" name="email" id="email" required>
-        </div> 
-        <!-- T-shirt colour chosing option -->   
-          <div>
-           <label for="tshirtClour">T-shirt colour</label>
-           <select name="tshirtClour" id="tshirtClour" >
-             <option value="green">Green</option>
-             <option value="yellow">Yellow</option>
-             <option value="red">Red</option>
-           </select>
+        </div>
+        <!-- T-shirt colour chosing option -->
+        <div>
+          <label for="tshirtClour">T-shirt colour</label>
+          <select name="tshirtClour" id="tshirtClour">
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+            <option value="red">Red</option>
+          </select>
         </div>
         <!-- T-shirt size chosing option -->
-         <div>
-           <label for="tshirtSize">T-shirt size</label>
-           <select name="tshirtSize" id="tshirtSize" >
-             <option value="xs">XS</option>
-             <option value="s">S</option>
-             <option value="m">M</option>
-             <option value="l">L</option>
-             <option value="xl">XL</option>
-             <option value="xxl">XXL</option>
-           </select>
+        <div>
+          <label for="tshirtSize">T-shirt size</label>
+          <select name="tshirtSize" id="tshirtSize">
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+            <option value="xxl">XXL</option>
+          </select>
         </div>
         <button type="submit">Submit</button>
-         
+
         <!-- write your html here-->
         <!-- 
           try writing out the requirements first as comments
         this will also help you fill in your PR message later
 
-        Requirements:
+        The following are the equirements:
         
         What is the customer's name? It must contains at least two non-space characters.
         What is the customer's email? The email be is valid. Email addresses follow a consistent pattern.
         What colour should this T-shirt be? 3 options must provide. How will I ensure they do not choose other colours?
         What size does the customer want? I must provide the following 6 options: XS, S, M, L, XL, XXL-->
-      </form>
-    </main>
-    <footer>
-      <!-- change to your name-->
-      <p>By HOMEWORK SOLUTION</p>
-    </footer>
-  </body>
+    </form>
+  </main>
+  <footer>
+    <!-- change to your name-->
+    <p>By HOMEWORK SOLUTION</p>
+  </footer>
+</body>
+
 </html>
