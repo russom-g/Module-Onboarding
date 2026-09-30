@@ -9,11 +9,11 @@
 // 1. This will give reference error.
 // 
 
-
+/*
 function square(3) {
     return num * num;
 }
-
+*/
 // =============> write the error message here
 // 
 // SyntaxError: Unexpected number
@@ -30,5 +30,3 @@ function square(3) {
 function square(num) {
     return num * num;
 }
-
-
