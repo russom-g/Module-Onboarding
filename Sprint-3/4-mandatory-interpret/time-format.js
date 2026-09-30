@@ -41,10 +41,10 @@ console.log(formatTimeDisplay(61))
 // d) What is the value assigned to num when pad is called for the last time in this program?  Explain your answer
 // =============> write your answer here
 
-// The value assigned to num is 1. This is because 1 is the last character in the string 61
+// Seconds % 60 on line 10 gives the leftover 1, and that 1 goes into remainingSeconds. The last call is pad(remainingSeconds), so num is 1.
 
 // e) What is the return value of pad when it is called for the last time in this program?  Explain your answer
 // =============> write your answer here
 
-// The return value is "01". when pad is called for the last time it takes the last character of the string 61.
+// It gets remainingSeconds, which is 1.
 // After checking remainingSeconds length which is less than 2 it adds a "0" and returns "01"
