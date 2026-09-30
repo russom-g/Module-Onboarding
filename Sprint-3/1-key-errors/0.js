@@ -16,10 +16,10 @@
 // =============> write your explanation here
 
 // Explanation: 1. str declares twice.Hence it gives syntax error.
-// Refactor:    2. instead of returning str return can directly send back the template literal expression. 
+// Refactor:    2. instead of returning str return can directly send back the template literal expression.
 
 // =============> write your new code here
 
 function capitalise(str) {
-  return `${str[0].toUpperCase()}${str.slice(1)}`;  
+  return `${str[0].toUpperCase()}${str.slice(1)}`;
 }

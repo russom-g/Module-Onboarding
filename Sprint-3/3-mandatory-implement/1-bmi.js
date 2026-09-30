@@ -14,7 +14,6 @@
 // Then when we call this function with the weight and height
 // It should return a string of their Body Mass Index to 1 decimal place
 
-
 function calculateBMI(weight, height) {
-   return (weight / (height * height)).toFixed(1); 
+  return (weight / (height * height)).toFixed(1);
 }

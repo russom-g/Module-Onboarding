@@ -16,5 +16,5 @@
 // This might help https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
 
 function toUpperSnakeCase(str) {
-    return str.toUpperCase().replaceAll(" ", "_");
+  return str.toUpperCase().replaceAll(" ", "_");
 }
