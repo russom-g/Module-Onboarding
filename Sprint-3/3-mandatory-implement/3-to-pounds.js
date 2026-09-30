@@ -5,7 +5,7 @@
 
 // You should call this function a number of times to check it works for different inputs
 
-function toPound(priceInPence) {
+function toPounds(priceInPence) {
   const penceDigits = priceInPence
     .substring(0, priceInPence.length - 1)
     .padStart(3, "0");
@@ -16,4 +16,11 @@ function toPound(priceInPence) {
 
   return `£${poundsPart}.${pencePart}`;
 }
-console.log(toPound("399p"));
+console.log(toPounds("399p"));
+
+console.log(toPounds("0p"));
+console.log(toPounds("00"));
+console.log(toPounds("000"));
+console.log(toPounds("01"));
+console.log(toPounds("9p"));
+console.log(toPounds("58794"));
